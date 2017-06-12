@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carolina Calendar</title>
+    <link rel="stylesheet" type="text/css" href="carolinaCal2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="cal.js"></script>
+    <script src="postAssignments.js"></script>
+</head>
+
+    <body>
+       
+        <h1>Carolina Calendar</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="carolinaCalendar.html">Carolina Calendar</a></li>
+                <li><a href="addEvents.html">Find Courses</a></li>
+                <li id="about"><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    
+        <div class="month">
+            <ul>
+                <li class="prev"><input type="button" value="&#10094;"></li>
+                <li class="next"><input type="button" value="&#10095;"></li>
+                <li><span id="currentMonth"></span><br><span id="year">2016</span></li>
+            </ul>
+        </div>
+
+        <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+        </ul>
+
+
+    <div id="tables">
+        <table class="days" id="august"></table>
+        <table class="days" id="september"></table>
+        <table class="days" id="october"></table>
+        <table class="days" id="november"></table>
+        <table class="days" id="december"></table>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carolina Calendar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="ajax-call.js"></script>
+    <script src="postAssignments.js"></script>
+    <link rel="stylesheet" type="text/css" href="carolinaCal2.css">
+</head>
+    <body>
+        <h1>Find Courses</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="carolinaCalendar.html">Carolina Calendar</a></li>
+                <li><a href="addEvents.html">Find Courses</a></li>
+                <li id="about"><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div id="searchContent">
+            <input id="inputName" type="text" placeholder="COMP" maxlength="4" style="display: inline;">
+            <select id="equality" style="display: inline;">
+                <option id="equals" value="equals">&#61;</option>
+                <option id="lessThan" value="lessThan">&#60;</option>
+                <option id="greaterThan" value="greaterThan">&#60;</option>
+            </select>
+            <input id="inputNumber" tpye"text" placeholder="426" maxlength="3" style="display: inline;">
+        </div>
+
+        <div id="cards">
+            <div class="course">
+                 <div class="courseName">
+                    <center>BIOL</center>
+                </div>
+                <div class="courseNumber">
+                    <center>525</center>
+                </div>
+                <div class="courseButton"> 
+                    <input id="1" type="button" value="Add Dates to Calendar">
+                </div>                    
+            </div>
+
+            <div class="course">
+                
+                    <div class="courseName">
+                        <center>COMP</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>401</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="3" type="button" value="Add Dates to Calendar">
+                </div>
+            </div>
+            
+            <div class="course">
+                    <div class="courseName">
+                        <center>comp</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>426</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="7" type="button" value="Add Dates to Calendar">
+                </div>
+
+            <div class="course">
+                <div class="courseName">
+                    <center>COMP</center>
+                </div>
+                <div class="courseNumber">
+                    <center>520</center>
+                </div>
+                <div class="courseButton"> 
+                    <input id="8" type="button" value="Add Dates to Calendar">
+                </div>
+            </div>
+
+            <div class="course">
+                    <div class="courseName">
+                        <center>COMP</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>530</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="4" type="button" value="Add Dates to Calendar">
+                </div>
+            <div class="course">
+                    <div class="courseName">
+                        <center>COMP</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>575</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="6" type="button" value="Add Dates to Calendar">
+                </div>
+            <div class="course">
+                    <div class="courseName">
+                        <center>COMP</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>633</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="9" type="button" value="Add Dates to Calendar">
+                </div>
+            </div>
+                <div class="course">
+                    <div class="courseName">
+                        <center>COMP</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>750</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="10" type="button" value="Add Dates to Calendar">
+                </div>
+            <div class="course">
+                    <div class="courseName">
+                        <center>ENGL</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>105</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="5" type="button" value="Add Dates to Calendar">
+                </div>
+            <div class="course">
+                    <div class="courseName">
+                        <center>ENST</center>
+                    </div>
+                    <div class="courseNumber">
+                        <center>201</center>
+                    </div>
+                
+                <div class="courseButton"> 
+                    <input id="2" type="button" value="Add Dates to Calendar">
+                </div>
+        </div>
+
+        <div id="results">
+          <div>Return Status:<span id="returnstatus"></span></div>
+          <div>Return Text:
+            <div id="returntext"></div>
+          </div>
+        </div>
+        
+    </body>
+    
+</html>
